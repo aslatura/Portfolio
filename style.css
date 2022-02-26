@@ -53,7 +53,7 @@ h3 {
   color: white;
   text-decoration: none;
   box-shadow: 0 5px 5px 0 var(--box-shadow-color);
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px 10px;
 }
 
@@ -68,7 +68,7 @@ h3 {
   color: var(--main-color);
   text-decoration: none;
   box-shadow: 0 5px 5px 0 var(--box-shadow-color);
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px 10px;
 }
 
@@ -85,11 +85,16 @@ h3 {
 p {
   display: block;
   font-size: 15px;
-  background-color: var(--main-color-background);
-  /*margin: 10px 10px 10px 10px;
+  margin: 10px 50px 10px 50px;
   padding: 5px 5px 5px 5px;*/
+  color: var(--main-text-color) !important;
+  padding: 15px 30px 0px 30px;
+  
+}
+
+.pBack {
+  background-color: var(--main-color-background);
   text-align: center;
-  color: var(--main-text-color);
 }
 
 .email-link {
@@ -99,19 +104,18 @@ p {
   font-size: 25px;
 }
 
-.container {
-  max-width: 720px;
-  margin-top: 60px;
-}
 
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-#weatherApp {
+.apps {
   color: var(--main-text-color) !important;
+  margin: 40px 30px 30px 30px !important;
 }
+
+
 
 .img-fluid {
   max-width: 100%;
@@ -123,4 +127,31 @@ p {
 
 .opac {
   opacity: 70%;
+}
+
+.launch {
+  background-color: var(--main-color) !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  color: white !important;
+  text-decoration: none !important;
+  box-shadow: 0 5px 5px 0 var(--box-shadow-color) !important;
+  font-size: 15px !important;
+  margin-top: 10px !important;
+}
+
+.col-sm-6 {
+  margin-bottom: 30px;
+}
+
+.rounded {
+    border-radius: 0.25rem!important;
+}
+
+.p-2 {
+    padding: 0.5rem!important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
