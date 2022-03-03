@@ -59,7 +59,8 @@ h3 {
 
 .contact-link:hover {
   cursor: pointer;
-}
+  color: white;
+  }
 
 .about-link {
   padding: 20px;
@@ -74,6 +75,8 @@ h3 {
 
 .about-link:hover {
   cursor: pointer;
+  color: var(--main-color);
+  
 }
 
 .about-paragraphs {
@@ -85,7 +88,7 @@ h3 {
 p {
   display: block;
   font-size: 15px;
-  margin: 10px 50px 10px 50px;
+  margin: 10px 10px 10px 10px;
   padding: 5px 5px 5px 5px;*/
   color: var(--main-text-color) !important;
   padding: 15px 30px 0px 30px;
@@ -104,6 +107,11 @@ p {
   font-size: 25px;
 }
 
+.email-link:hover{
+  cursor: pointer;
+  color: var(--main-color);
+  
+}
 
 .row {
   display: flex;
@@ -153,5 +161,30 @@ p {
 }
 
 .shadow {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,.15)!important;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px !important;
+  }
+}
+
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 15px !important;
+  }
+}
+
+
+  .border-secondary{
+    color: var(--main-text-color) !important;
+  }
+
