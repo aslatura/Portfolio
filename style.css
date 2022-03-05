@@ -188,3 +188,14 @@ p {
     color: var(--main-text-color) !important;
   }
 
+.social{
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  
+}
+
+.fab{
+color: var(--main-color) !important;
+  
+}
