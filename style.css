@@ -136,6 +136,7 @@ p {
   padding: 5px 5px 5px 5px;*/
 }
 
+
 .opac {
   opacity: 70%;
 }
@@ -212,4 +213,26 @@ color: var(--main-color) !important;
   .textLink{
     color: var(--main-text-color);
   }
+
+  .textLink:Hover{
+    color: var(--main-text-color);
+  }
+
+  .pAbout {
+  background-color: var(--main-color-background);
+  text-align: justify;
+  font-size: 18px;
+  padding: 130px 25px 130px 25px;
+}
+
+@media (max-width: 820px) {
+  .pAbout {
+    padding: 10px 10px !important;
+    font-size: 15px !important;
+}
+
+@media (max-width: 820px) {
+  .img-audrey {
+    padding: 0px !important;
+}
 
