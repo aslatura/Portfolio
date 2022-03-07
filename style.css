@@ -68,6 +68,15 @@ h3 {
   
 }
 
+@media (max-width: 576px) {
+  .about-link {
+    padding-left: 30px !important;
+ padding-right: 30px !important;
+ margin: 5px 5px !important;
+  }
+}
+
+
 .work-link {
   background: linear-gradient(to right, var(--main-color), var(--main-color-reduced));
   padding: 40px !important;
@@ -83,6 +92,14 @@ h3 {
   cursor: pointer;
   color: white;
   
+}
+
+@media (max-width: 576px) {
+  .work-link {
+    padding-left: 30px !important;
+ padding-right: 30px !important;
+ margin: 5px 5px !important;
+  }
 }
 
 
@@ -104,6 +121,14 @@ h3 {
   cursor: pointer;
   color: white;
   }
+
+  @media (max-width: 576px) {
+  .contact-link {
+    padding-left: 30px !important;
+ padding-right: 30px !important;
+ margin: 5px 5px !important;
+  }
+}
 
 
 .about-paragraphs {
@@ -262,5 +287,9 @@ color: var(--main-color) !important;
 @media (max-width: 820px) {
   .img-audrey {
     padding: 0px !important;
+}
+
+.navbar-brand{
+  color: var(--main-color) !important;
 }
 
