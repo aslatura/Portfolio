@@ -64,7 +64,7 @@ h3 {
 
 .about-link:hover {
   cursor: pointer;
-  color: var(--main-color);
+  color: white;
   
 }
 
@@ -119,7 +119,7 @@ h3 {
 
 .contact-link:hover {
   cursor: pointer;
-  color: white;
+  color: var(--main-color);
   }
 
   @media (max-width: 576px) {
@@ -292,4 +292,3 @@ color: var(--main-color) !important;
 .navbar-brand{
   color: var(--main-color) !important;
 }
-
